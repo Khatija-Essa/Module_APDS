@@ -31,7 +31,7 @@ app.route("/post",posts);
 app.use("/user",users);
 app.route("/user",users);
 
-// Create HTTPS server and start listening
+// Create HTTPS server and start listening to it 
 let server = http.createServer(options,app);
 
 server.listen(PORT);
